@@ -1,0 +1,17 @@
+{
+  "name": "Admuter",
+  "description": "Automatically mute spotify web player adverts",
+  "version": "0.1",
+  "content_scripts":
+  [
+      {
+          "matches": ["http://*/*", "https://*/*"],
+          "js": ["js/jquery-3.1.1.min.js"]
+      },
+      {
+          "matches": ["http://*/*", "https://*/*"],
+          "js": ["js/muter.js"]
+      }
+  ],
+  "manifest_version": 2
+}
