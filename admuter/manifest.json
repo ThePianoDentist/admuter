@@ -9,6 +9,18 @@
           "js": ["js/jquery-3.1.1.min.js"]
       },
       {
+          "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"],
+          "js": ["js/youtube_mute.js"]
+      },
+      {
+          "matches": ["http://www.twitch.tv/*", "https://www.twitch.tv/*"],
+          "js": ["js/twitch_mute.js"]
+      },
+      {
+          "matches": ["http://www.spotify.com/*", "https://www.spotify.com/*"],
+          "js": ["js/spotify_mute.js"]
+      },
+      {
           "matches": ["http://*/*", "https://*/*"],
           "js": ["js/muter.js"]
       }
