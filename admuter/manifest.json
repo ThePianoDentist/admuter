@@ -13,8 +13,9 @@
           "js": ["js/youtube_mute.js"]
       },
       {
-          "matches": ["http://www.twitch.tv/*", "https://www.twitch.tv/*"],
-          "js": ["js/twitch_mute.js"]
+          "matches": ["http://*/*", "https://*/*"],
+          "js": ["js/twitch_mute.js"],
+          "all_frames": true 
       },
       {
           "matches": ["http://www.spotify.com/*", "https://www.spotify.com/*"],
